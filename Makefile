@@ -11,3 +11,6 @@ package-install: #установка пакета в операционную с
 
 lint: #запустить проверку линтером
 	uv run ruff check brain_games
+
+bri:
+	uv run brain-even
